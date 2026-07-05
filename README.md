@@ -37,11 +37,11 @@ The full map: [the constellation write-up](https://skyphusion.net/blog/vivijure-
 
 Skyphusion Labs is not just me. The crew each keep their own README:
 
-- **Mackaye**: [github.com/skyphusion-mackaye/skyphusion-mackaye](https://github.com/skyphusion-mackaye/skyphusion-mackaye)
-- **Rollins**: [github.com/skyphusion-rollins/skyphusion-rollins](https://github.com/skyphusion-rollins/skyphusion-rollins)
-- **Strummer**: [github.com/skyphusion-strummer/skyphusion-strummer](https://github.com/skyphusion-strummer/skyphusion-strummer)
-- **Joan**: [github.com/skyphusion-joan/skyphusion-joan](https://github.com/skyphusion-joan/skyphusion-joan)
-- **Ernst**: [github.com/skyphusion-ernst/skyphusion-ernst](https://github.com/skyphusion-ernst/skyphusion-ernst)
+- **Mackaye**: [https://github.com/skyphusion-mackaye/skyphusion-mackaye](https://github.com/skyphusion-mackaye/skyphusion-mackaye)
+- **Rollins**: [https://github.com/skyphusion-rollins/skyphusion-rollins](https://github.com/skyphusion-rollins/skyphusion-rollins)
+- **Strummer**: [https://github.com/skyphusion-strummer/skyphusion-strummer](https://github.com/skyphusion-strummer/skyphusion-strummer)
+- **Joan**: [https://github.com/skyphusion-joan/skyphusion-joan](https://github.com/skyphusion-joan/skyphusion-joan)
+- **Ernst**: [https://github.com/skyphusion-ernst/skyphusion-ernst](https://github.com/skyphusion-ernst/skyphusion-ernst)
 
 ## How I work
 
