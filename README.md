@@ -1,6 +1,6 @@
 # Conrad Rockenhaus
 
-[`@skyphusion`](https://github.com/skyphusion) | [Skyphusion Labs](https://github.com/skyphusion-labs) | [github.skyphusion.org](https://github.skyphusion.org) (the Labs page) | [skyphusion.net](https://skyphusion.net) (engineering blog) | [skyphusion.org](https://skyphusion.org) (the lab)
+[`@skyphusion`](https://github.com/skyphusion) | [Skyphusion Labs](https://github.com/skyphusion-labs) | [github.skyphusion.org](https://github.skyphusion.org) (the Labs page) | [github.skyphusion.net](https://github.skyphusion.net) (this page) | [skyphusion.net](https://skyphusion.net) (engineering blog) | [skyphusion.org](https://skyphusion.org) (the lab) | [Vivijure](https://vivijure.skyphusion.org/welcome) | [X](https://x.com/skyphusion)
 
 Independent developer, infrastructure operator, and Navy combat veteran. I build and self-host AI tooling, mostly on Cloudflare Workers, and I run the whole stack myself.
 
@@ -16,7 +16,10 @@ All of it lives at **[github.com/skyphusion-labs](https://github.com/skyphusion-
 
 ### The Vivijure constellation (AI film studio, nearing full public release)
 
+An AI film studio you own is also an AI film studio you can run **cheaply**, if you are deliberate about where each kind of work runs. Diffusion belongs on a GPU (your own card, RunPod serverless by the second, or a cloud i2v API). Assembly, mux, captions, portrait prep, beat analysis, and loudness work belong on CPU.
+
 - **[vivijure](https://github.com/skyphusion-labs/vivijure)**: the Studio itself, a self-hosted AI film studio on Cloudflare Workers. Storyboard, cast, render orchestration, and a module registry that makes every engine below swappable. Runs on the Workers free tier. Meet it at [vivijure.skyphusion.org/welcome](https://vivijure.skyphusion.org/welcome).
+- **[vivijure/containers](https://github.com/skyphusion-labs/vivijure/tree/main/containers)**: the always-on **CPU media stack** on your own container host. Five slim Docker services (video assembly, portrait prep, beat sync, audio mastering, and multi-track mix) reached over Workers VPC so concat, mux, and finishing work stay off the GPU bill.
 - **[slate](https://github.com/skyphusion-labs/slate)**: the Discord front door. A collaborative screenwriter assistant that keeps a structured storyboard brief in channel and ships finished bundles to the Studio.
 - **[vivijure-backend](https://github.com/skyphusion-labs/vivijure-backend)**: the datacenter GPU engine on RunPod. LoRA training, SDXL keyframes, Wan image-to-video, and a release gate that renders a real film before it promotes an image.
 - **[vivijure-local-12gb](https://github.com/skyphusion-labs/vivijure-local-12gb)** and **[vivijure-local-16gb](https://github.com/skyphusion-labs/vivijure-local-16gb)**: own-GPU doors. Image-to-video on a single consumer card in your homelab (LTX-Video at a proven 12GB floor; CogVideoX-5B-I2V at a proven 16GB floor), reached over a Cloudflare tunnel. No rent.
@@ -55,7 +58,6 @@ Skyphusion Labs is not just me. The crew each keep their own README:
 - The fleet: five dedicated CPU servers and one dedicated GPU server, all running Linux, plus several cloud VMs, the whole thing wired into a clean infrastructure-as-code stack.
 - Self-hosting over SaaS wherever it makes sense. I would rather understand a system than rent it.
 - Fedora Linux daily driver, Cloudflare Tunnels for inbound, nftables on the door.
-- I run my own monitoring at [status.skyphusion.org](https://status.skyphusion.org), so I find out before anyone else does.
 
 ## Before all this
 
@@ -67,7 +69,8 @@ I served in the Navy, with deployments to Kosovo and Afghanistan attached to fir
 - Skyphusion Labs: [skyphusion.org](https://skyphusion.org)
 - The code: [github.com/skyphusion-labs](https://github.com/skyphusion-labs)
 - Skyphusion Labs GitHub landing page: [github.skyphusion.org](https://github.skyphusion.org)
+- My GitHub landing page: [github.skyphusion.net](https://github.skyphusion.net)
 - Vivijure, the AI film studio: [vivijure.skyphusion.org/welcome](https://vivijure.skyphusion.org/welcome)
 - GitHub profile: [github.com/skyphusion](https://github.com/skyphusion)
-- Status: [status.skyphusion.org](https://status.skyphusion.org)
-- Reach me: conrad@skyphusion.org
+- X: [x.com/skyphusion](https://x.com/skyphusion)
+- Reach me: [conrad@skyphusion.org](mailto:conrad@skyphusion.org)

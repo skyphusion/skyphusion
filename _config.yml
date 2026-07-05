@@ -31,6 +31,7 @@ social:
     - https://skyphusion.net
     - https://skyphusion.org
     - https://x.com/skyphusion
+    - https://vivijure.skyphusion.org/welcome
 
 # Site-wide default social-share image (served by the blog's asset pipeline).
 defaults:
