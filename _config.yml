@@ -1,0 +1,41 @@
+# Jekyll config for the GitHub Pages profile site at https://github.skyphusion.net
+# (custom domain via the CNAME file; DNS CNAME github.skyphusion.net -> skyphusion.github.io).
+# README.md renders as the index page via the github-pages gem defaults.
+
+title: Conrad Rockenhaus | Skyphusion Labs | Free Open Source Software
+description: >-
+  Conrad Rockenhaus of Skyphusion Labs builds free, open source software that is
+  not for sale: the Vivijure AI film studio, Prism multimodal AI playground,
+  Postern mailbox, The Hollow Grid MUD, Common Thread, and more. Free use
+  forever, made with love, developed in the open on Cloudflare Workers and
+  self-hosted Linux infrastructure. Engineering blog at skyphusion.net, lab at
+  skyphusion.org, code at github.com/skyphusion-labs.
+url: "https://github.skyphusion.net"
+baseurl: ""
+lang: en
+
+author:
+  name: Conrad Rockenhaus
+  email: conrad@skyphusion.org
+
+social:
+  name: Conrad Rockenhaus
+  links:
+    - https://github.com/skyphusion-labs
+    - https://github.com/skyphusion
+    - https://skyphusion.net
+    - https://skyphusion.org
+    - https://x.com/skyphusion
+
+# Site-wide default social-share image (served by the blog's asset pipeline).
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://skyphusion.net/og-default.png
+
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
