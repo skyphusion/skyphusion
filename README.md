@@ -1,6 +1,6 @@
 # Conrad Rockenhaus
 
-`@skyphusion` | [Skyphusion Labs](https://github.com/skyphusion-labs) | [skyphusion.net](https://skyphusion.net) (engineering blog) | [skyphusion.org](https://skyphusion.org) (the lab)
+[`@skyphusion`](https://github.com/skyphusion) | [Skyphusion Labs](https://github.com/skyphusion-labs) | [skyphusion.net](https://skyphusion.net) (engineering blog) | [skyphusion.org](https://skyphusion.org) (the lab)
 
 Independent developer, infrastructure operator, and Navy combat veteran. I build and self-host AI tooling, mostly on Cloudflare Workers, and I run the whole stack myself.
 
@@ -37,11 +37,17 @@ The full map: [the constellation write-up](https://skyphusion.net/blog/vivijure-
 
 Skyphusion Labs is not just me. The crew each keep their own README:
 
-- **Mackaye**: [https://github.com/skyphusion-mackaye/skyphusion-mackaye](https://github.com/skyphusion-mackaye/skyphusion-mackaye)
-- **Rollins**: [https://github.com/skyphusion-rollins/skyphusion-rollins](https://github.com/skyphusion-rollins/skyphusion-rollins)
-- **Strummer**: [https://github.com/skyphusion-strummer/skyphusion-strummer](https://github.com/skyphusion-strummer/skyphusion-strummer)
-- **Joan**: [https://github.com/skyphusion-joan/skyphusion-joan](https://github.com/skyphusion-joan/skyphusion-joan)
-- **Ernst**: [https://github.com/skyphusion-ernst/skyphusion-ernst](https://github.com/skyphusion-ernst/skyphusion-ernst)
+- **[Mackaye][mackaye]**
+- **[Rollins][rollins]**
+- **[Strummer][strummer]**
+- **[Joan][joan]**
+- **[Ernst][ernst]**
+
+[mackaye]: https://github.com/skyphusion-mackaye/skyphusion-mackaye
+[rollins]: https://github.com/skyphusion-rollins/skyphusion-rollins
+[strummer]: https://github.com/skyphusion-strummer/skyphusion-strummer
+[joan]: https://github.com/skyphusion-joan/skyphusion-joan
+[ernst]: https://github.com/skyphusion-ernst/skyphusion-ernst
 
 ## How I work
 
@@ -60,5 +66,6 @@ I served in the Navy, with deployments to Kosovo and Afghanistan attached to fir
 - Engineering blog: [skyphusion.net](https://skyphusion.net)
 - Skyphusion Labs: [skyphusion.org](https://skyphusion.org)
 - The code: [github.com/skyphusion-labs](https://github.com/skyphusion-labs)
+- GitHub profile: [github.com/skyphusion](https://github.com/skyphusion)
 - Status: [status.skyphusion.org](https://status.skyphusion.org)
 - Reach me: conrad@skyphusion.org
