@@ -1,6 +1,15 @@
 # Conrad Rockenhaus
 
-[`@skyphusion`](https://github.com/skyphusion) | [Skyphusion Labs](https://github.com/skyphusion-labs) | [github.skyphusion.org](https://github.skyphusion.org) (the Labs page) | [github.skyphusion.net](https://github.skyphusion.net) (this page) | [skyphusion.net](https://skyphusion.net) (engineering blog) | [skyphusion.org](https://skyphusion.org) (the lab) | [Vivijure](https://vivijure.skyphusion.org/welcome) | [X](https://x.com/skyphusion)
+<p class="site-header-links">
+  <a href="https://github.com/skyphusion">@skyphusion</a><span class="sep"> / </span>
+  <a href="https://github.com/skyphusion-labs">Skyphusion Labs</a><span class="sep"> / </span>
+  <a href="https://github.skyphusion.org">github.skyphusion.org</a> <span class="label">(Labs page)</span><span class="sep"> / </span>
+  <a href="https://github.skyphusion.net">github.skyphusion.net</a> <span class="label">(this page)</span><span class="sep"> / </span>
+  <a href="https://skyphusion.net">skyphusion.net</a> <span class="label">(blog)</span><span class="sep"> / </span>
+  <a href="https://skyphusion.org">skyphusion.org</a> <span class="label">(lab)</span><span class="sep"> / </span>
+  <a href="https://vivijure.skyphusion.org/welcome">Vivijure</a><span class="sep"> / </span>
+  <a href="https://x.com/skyphusion">X</a>
+</p>
 
 Independent developer, infrastructure operator, and Navy combat veteran. I build and self-host AI tooling, mostly on Cloudflare Workers, and I run the whole stack myself.
 

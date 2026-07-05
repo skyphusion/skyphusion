@@ -2,6 +2,57 @@
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e125ca45cc9e42098ea4d26c9eed4628"}'></script>
 <!-- End Cloudflare Web Analytics -->
 
+<!-- Layout fixes for jekyll-theme-minimal: keep the main column from overflowing the
+     fixed sidebar when link rows are long (github.skyphusion.net). -->
+<style>
+  .wrapper {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .wrapper section {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+  }
+
+  .wrapper section p,
+  .wrapper section li,
+  .wrapper section a {
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+  }
+
+  .site-header-links,
+  .site-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15rem 0.35rem;
+    margin: 0 0 20px;
+    line-height: 1.65;
+  }
+
+  .site-header-links .sep,
+  .site-footer-links .sep {
+    color: #ccc;
+    user-select: none;
+    white-space: pre;
+  }
+
+  .site-header-links .label {
+    color: #999;
+    font-size: 0.92em;
+  }
+
+  @media print, screen and (max-width: 960px) {
+    .wrapper {
+      overflow-x: visible;
+    }
+  }
+</style>
+
 <!-- Person + Organization structured data: link this profile to Conrad Rockenhaus,
      Skyphusion Labs (skyphusion.org), the engineering blog (skyphusion.net), and
      the code at github.com/skyphusion-labs. -->
