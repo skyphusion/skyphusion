@@ -1,6 +1,6 @@
 # Conrad Rockenhaus
 
-[`@skyphusion`](https://github.com/skyphusion) | [Skyphusion Labs](https://github.com/skyphusion-labs) | [skyphusion.net](https://skyphusion.net) (engineering blog) | [skyphusion.org](https://skyphusion.org) (the lab)
+[`@skyphusion`](https://github.com/skyphusion) | [Skyphusion Labs](https://github.com/skyphusion-labs) | [github.skyphusion.org](https://github.skyphusion.org) (the Labs page) | [skyphusion.net](https://skyphusion.net) (engineering blog) | [skyphusion.org](https://skyphusion.org) (the lab)
 
 Independent developer, infrastructure operator, and Navy combat veteran. I build and self-host AI tooling, mostly on Cloudflare Workers, and I run the whole stack myself.
 
@@ -16,7 +16,7 @@ All of it lives at **[github.com/skyphusion-labs](https://github.com/skyphusion-
 
 ### The Vivijure constellation (AI film studio, nearing full public release)
 
-- **[vivijure](https://github.com/skyphusion-labs/vivijure)**: the Studio itself, a self-hosted AI film studio on Cloudflare Workers. Storyboard, cast, render orchestration, and a module registry that makes every engine below swappable. Runs on the Workers free tier.
+- **[vivijure](https://github.com/skyphusion-labs/vivijure)**: the Studio itself, a self-hosted AI film studio on Cloudflare Workers. Storyboard, cast, render orchestration, and a module registry that makes every engine below swappable. Runs on the Workers free tier. Meet it at [vivijure.skyphusion.org/welcome](https://vivijure.skyphusion.org/welcome).
 - **[slate](https://github.com/skyphusion-labs/slate)**: the Discord front door. A collaborative screenwriter assistant that keeps a structured storyboard brief in channel and ships finished bundles to the Studio.
 - **[vivijure-backend](https://github.com/skyphusion-labs/vivijure-backend)**: the datacenter GPU engine on RunPod. LoRA training, SDXL keyframes, Wan image-to-video, and a release gate that renders a real film before it promotes an image.
 - **[vivijure-local-12gb](https://github.com/skyphusion-labs/vivijure-local-12gb)** and **[vivijure-local-16gb](https://github.com/skyphusion-labs/vivijure-local-16gb)**: own-GPU doors. Image-to-video on a single consumer card in your homelab (LTX-Video at a proven 12GB floor; CogVideoX-5B-I2V at a proven 16GB floor), reached over a Cloudflare tunnel. No rent.
@@ -66,6 +66,8 @@ I served in the Navy, with deployments to Kosovo and Afghanistan attached to fir
 - Engineering blog: [skyphusion.net](https://skyphusion.net)
 - Skyphusion Labs: [skyphusion.org](https://skyphusion.org)
 - The code: [github.com/skyphusion-labs](https://github.com/skyphusion-labs)
+- Skyphusion Labs GitHub landing page: [github.skyphusion.org](https://github.skyphusion.org)
+- Vivijure, the AI film studio: [vivijure.skyphusion.org/welcome](https://vivijure.skyphusion.org/welcome)
 - GitHub profile: [github.com/skyphusion](https://github.com/skyphusion)
 - Status: [status.skyphusion.org](https://status.skyphusion.org)
 - Reach me: conrad@skyphusion.org

@@ -18,11 +18,16 @@ author:
   name: Conrad Rockenhaus
   email: conrad@skyphusion.org
 
+twitter:
+  username: skyphusion
+  card: summary_large_image
+
 social:
   name: Conrad Rockenhaus
   links:
     - https://github.com/skyphusion-labs
     - https://github.com/skyphusion
+    - https://github.skyphusion.org
     - https://skyphusion.net
     - https://skyphusion.org
     - https://x.com/skyphusion
