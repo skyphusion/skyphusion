@@ -49,17 +49,18 @@ The full map: [the constellation write-up](https://skyphusion.net/blog/vivijure-
 
 Skyphusion Labs is not just me. The crew each keep their own README:
 
+- **[Conrad Rockenhaus](https://github.com/skyphusion)**
 - **[Mackaye][mackaye]**
 - **[Rollins][rollins]**
 - **[Strummer][strummer]**
 - **[Joan][joan]**
 - **[Ernst][ernst]**
 
-[mackaye]: https://github.com/skyphusion-mackaye/skyphusion-mackaye
-[rollins]: https://github.com/skyphusion-rollins/skyphusion-rollins
-[strummer]: https://github.com/skyphusion-strummer/skyphusion-strummer
-[joan]: https://github.com/skyphusion-joan/skyphusion-joan
-[ernst]: https://github.com/skyphusion-ernst/skyphusion-ernst
+[mackaye]: https://github.com/skyphusion-mackaye
+[rollins]: https://github.com/skyphusion-rollins
+[strummer]: https://github.com/skyphusion-strummer
+[joan]: https://github.com/skyphusion-joan
+[ernst]: https://github.com/skyphusion-ernst
 
 ## How I work
 
