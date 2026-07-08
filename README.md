@@ -7,7 +7,8 @@
   <a href="https://github.skyphusion.net">github.skyphusion.net</a> <span class="label">(this page)</span><span class="sep"> / </span>
   <a href="https://skyphusion.net">skyphusion.net</a> <span class="label">(blog)</span><span class="sep"> / </span>
   <a href="https://skyphusion.org">skyphusion.org</a> <span class="label">(lab)</span><span class="sep"> / </span>
-  <a href="https://vivijure.skyphusion.org/welcome">Vivijure</a><span class="sep"> / </span>
+  <a href="https://vivijure.com">vivijure.com</a><span class="sep"> / </span>
+  <a href="https://vivijure.skyphusion.org/welcome">Vivijure welcome</a><span class="sep"> / </span>
   <a href="https://x.com/skyphusion">X</a>
 </p>
 
@@ -80,7 +81,7 @@ I served in the Navy, with deployments to Kosovo and Afghanistan attached to fir
 - The code: [github.com/skyphusion-labs](https://github.com/skyphusion-labs)
 - Skyphusion Labs GitHub landing page: [github.skyphusion.org](https://github.skyphusion.org)
 - My GitHub landing page: [github.skyphusion.net](https://github.skyphusion.net)
-- Vivijure, the AI film studio: [vivijure.skyphusion.org/welcome](https://vivijure.skyphusion.org/welcome)
+- Vivijure, the AI film studio: [vivijure.com](https://vivijure.com) ([welcome demo](https://vivijure.skyphusion.org/welcome))
 - GitHub profile: [github.com/skyphusion](https://github.com/skyphusion)
 - X: [x.com/skyphusion](https://x.com/skyphusion)
 - Reach me: [conrad@skyphusion.org](mailto:conrad@skyphusion.org)
