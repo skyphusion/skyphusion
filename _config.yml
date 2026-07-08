@@ -31,14 +31,15 @@ social:
     - https://skyphusion.net
     - https://skyphusion.org
     - https://x.com/skyphusion
+    - https://vivijure.com
     - https://vivijure.skyphusion.org/welcome
 
-# Site-wide default social-share image (served by the blog's asset pipeline).
+# Site-wide default social-share image (served by skyphusion.org).
 defaults:
   - scope:
       path: ""
     values:
-      image: https://skyphusion.net/og-default.png
+      image: https://skyphusion.org/og-image.png
 
 theme: jekyll-theme-minimal
 
