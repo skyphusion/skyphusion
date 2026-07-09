@@ -68,7 +68,7 @@ Skyphusion Labs is not just me. The crew each keep their own README:
 - Cloudflare Workers, Durable Objects, D1, R2, Workflows, and Workers AI as the default platform: cheap at idle, no servers to babysit, and the ones I do babysit are mine.
 - The fleet: five dedicated CPU servers and one dedicated GPU server, all running Linux, plus several cloud VMs, the whole thing wired into a clean infrastructure-as-code stack.
 - Self-hosting over SaaS wherever it makes sense. I would rather understand a system than rent it.
-- Fedora Linux daily driver, Cloudflare Tunnels for inbound, nftables on the door.
+- MacOS daily driver, Cloudflare Tunnels for inbound, nftables on the door.
 
 ## Before all this
 
