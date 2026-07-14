@@ -8,7 +8,7 @@
   <a href="https://skyphusion.net">skyphusion.net</a> <span class="label">(blog)</span><span class="sep"> / </span>
   <a href="https://skyphusion.org">skyphusion.org</a> <span class="label">(lab)</span><span class="sep"> / </span>
   <a href="https://vivijure.com">vivijure.com</a><span class="sep"> / </span>
-  <a href="https://vivijure.skyphusion.org/welcome">Vivijure welcome</a><span class="sep"> / </span>
+  <a href="https://demo.vivijure.com">Vivijure demo</a><span class="sep"> / </span>
   <a href="https://x.com/skyphusion">X</a>
 </p>
 
@@ -28,7 +28,7 @@ All of it lives at **[github.com/skyphusion-labs](https://github.com/skyphusion-
 
 An AI film studio you own is also an AI film studio you can run **cheaply**, if you are deliberate about where each kind of work runs. Diffusion belongs on a GPU (your own card, RunPod serverless by the second, or a cloud i2v API). Assembly, mux, captions, portrait prep, beat analysis, and loudness work belong on CPU.
 
-- **[vivijure](https://github.com/skyphusion-labs/vivijure)**: the Studio itself, a self-hosted AI film studio on Cloudflare Workers. Storyboard, cast, render orchestration, and a module registry that makes every engine below swappable. Runs on the Workers free tier. Meet it at [vivijure.skyphusion.org/welcome](https://vivijure.skyphusion.org/welcome).
+- **[vivijure](https://github.com/skyphusion-labs/vivijure)**: the Studio itself, a self-hosted AI film studio on Cloudflare Workers. Storyboard, cast, render orchestration, and a module registry that makes every engine below swappable. Runs on the Workers free tier. Meet it at [demo.vivijure.com](https://demo.vivijure.com).
 - **[vivijure/containers](https://github.com/skyphusion-labs/vivijure/tree/main/containers)**: the always-on **CPU media stack** on your own container host. Five slim Docker services (video assembly, portrait prep, beat sync, audio mastering, and multi-track mix) reached over Workers VPC so concat, mux, and finishing work stay off the GPU bill.
 - **[slate](https://github.com/skyphusion-labs/slate)**: the Discord front door. A collaborative screenwriter assistant that keeps a structured storyboard brief in channel and ships finished bundles to the Studio.
 - **[vivijure-backend](https://github.com/skyphusion-labs/vivijure-backend)**: the datacenter GPU engine on RunPod. LoRA training, SDXL keyframes, Wan image-to-video, and a release gate that renders a real film before it promotes an image.
@@ -81,7 +81,7 @@ I served in the Navy, with deployments to Kosovo and Afghanistan attached to fir
 - The code: [github.com/skyphusion-labs](https://github.com/skyphusion-labs)
 - Skyphusion Labs GitHub landing page: [github.skyphusion.org](https://github.skyphusion.org)
 - My GitHub landing page: [github.skyphusion.net](https://github.skyphusion.net)
-- Vivijure, the AI film studio: [vivijure.com](https://vivijure.com) ([welcome demo](https://vivijure.skyphusion.org/welcome))
+- Vivijure, the AI film studio: [vivijure.com](https://vivijure.com) ([live demo](https://demo.vivijure.com))
 - GitHub profile: [github.com/skyphusion](https://github.com/skyphusion)
 - X: [x.com/skyphusion](https://x.com/skyphusion)
 - Reach me: [conrad@skyphusion.org](mailto:conrad@skyphusion.org)
