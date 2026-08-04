@@ -1,5 +1,3 @@
-# Conrad Rockenhaus
-
 <p class="site-header-links">
   <a href="https://github.com/skyphusion">@skyphusion</a><span class="sep"> / </span>
   <a href="https://github.com/skyphusion-labs">Skyphusion Labs</a><span class="sep"> / </span>
@@ -25,27 +23,29 @@ Open source does not mean lower standards. Every project ships with real CI gate
 
 All of it lives at **[github.com/skyphusion-labs](https://github.com/skyphusion-labs)**, with write-ups on [skyphusion.net](https://skyphusion.net).
 
-### The Vivijure constellation (AI film studio, nearing full public release)
+### The Vivijure constellation (AI film studio, v1.0.0)
 
-An AI film studio you own is also an AI film studio you can run **cheaply**, if you are deliberate about where each kind of work runs. Diffusion belongs on a GPU (your own card, RunPod serverless by the second, or a cloud i2v API). Assembly, mux, captions, portrait prep, beat analysis, and loudness work belong on CPU.
+An AI film studio you own is also an AI film studio you can run **cheaply**, if you are deliberate about where each kind of work runs. Diffusion belongs on a GPU (your own card, RunPod serverless by the second, or a cloud i2v API). Assembly, mux, captions, portrait prep, beat analysis, and loudness work belong on CPU. Product site: [vivijure.com](https://vivijure.com).
 
-- **[vivijure](https://github.com/skyphusion-labs/vivijure)**: the Studio itself, a self-hosted AI film studio on Cloudflare Workers. Storyboard, cast, render orchestration, and a module registry that makes every engine below swappable. Runs on the Workers free tier. Meet it at [demo.vivijure.com](https://demo.vivijure.com).
-- **[vivijure/containers](https://github.com/skyphusion-labs/vivijure/tree/main/containers)**: the always-on **CPU media stack** on your own container host. Five slim Docker services (video assembly, portrait prep, beat sync, audio mastering, and multi-track mix) reached over Workers VPC so concat, mux, and finishing work stay off the GPU bill.
-- **[slate](https://github.com/skyphusion-labs/slate)**: the Discord front door. A collaborative screenwriter assistant that keeps a structured storyboard brief in channel and ships finished bundles to the Studio.
-- **[vivijure-backend](https://github.com/skyphusion-labs/vivijure-backend)**: the datacenter GPU engine on RunPod. LoRA training, SDXL keyframes, Wan image-to-video, and a release gate that renders a real film before it promotes an image.
-- **[vivijure-local-12gb](https://github.com/skyphusion-labs/vivijure-local-12gb)** and **[vivijure-local-16gb](https://github.com/skyphusion-labs/vivijure-local-16gb)**: own-GPU doors. Image-to-video on a single consumer card in your homelab (LTX-Video at a proven 12GB floor; CogVideoX-5B-I2V at a proven 16GB floor), reached over a Cloudflare tunnel. No rent.
-- **[vivijure-musetalk](https://github.com/skyphusion-labs/vivijure-musetalk)**, **[vivijure-upscale](https://github.com/skyphusion-labs/vivijure-upscale)**, **[vivijure-audio-upscale](https://github.com/skyphusion-labs/vivijure-audio-upscale)**: the finish engines. Lip-sync, Real-ESRGAN video upscale, and speech cleanup, each a single-purpose GPU satellite.
+- **[vivijure](https://github.com/skyphusion-labs/vivijure)**: constellation map and front door. Control panel on [vivijure-cf](https://github.com/skyphusion-labs/vivijure-cf) (Cloudflare) or [vivijure-local](https://github.com/skyphusion-labs/vivijure-local) (home PC / any cloud server), unified by [vivijure-core](https://github.com/skyphusion-labs/vivijure-core). Demo: [demo.vivijure.com](https://demo.vivijure.com).
+- **[vivijure-cf/containers](https://github.com/skyphusion-labs/vivijure-cf/tree/main/containers)**: the always-on **CPU media stack**. Five slim Docker services (video assembly, portrait prep, beat sync, audio mastering, multi-track mix) so finishing work stays off the GPU bill.
+- **[slate](https://github.com/skyphusion-labs/slate)**: the Discord front door. Collaborative screenwriter that ships finished bundles to either studio host.
+- **[vivijure-backend](https://github.com/skyphusion-labs/vivijure-backend)**: the datacenter GPU engine on RunPod. LoRA training, SDXL keyframes, Wan image-to-video, release gate that renders a real film before it promotes.
+- **[vivijure-local-12gb](https://github.com/skyphusion-labs/vivijure-local-12gb)** and **[vivijure-local-16gb](https://github.com/skyphusion-labs/vivijure-local-16gb)**: own-GPU doors (LTX 12GB floor; CogVideoX 16GB fidelity).
+- **[vivijure-musetalk](https://github.com/skyphusion-labs/vivijure-musetalk)**, **[vivijure-upscale](https://github.com/skyphusion-labs/vivijure-upscale)**, **[vivijure-audio-upscale](https://github.com/skyphusion-labs/vivijure-audio-upscale)**: finish engines (lip-sync, video upscale, speech cleanup).
 
-The full map: [the constellation write-up](https://skyphusion.net/blog/vivijure-constellation/).
+Write-ups: [runs anywhere](https://skyphusion.net/blog/vivijure-run-anywhere/), [constellation](https://skyphusion.net/blog/vivijure-constellation/).
 
 ### Everything else
 
-- **[prism](https://github.com/skyphusion-labs/prism)**: a multimodal AI playground in a single Cloudflare Worker. 35 chat models across five providers, voice chat, RAG, image/video/music generation, durable jobs via Workflows.
-- **[postern](https://github.com/skyphusion-labs/postern)**: email for humans and agents. A self-hostable mailbox on Cloudflare: send, receive, store, search, thread, with webmail, IMAP, LDAP-backed doors, and a Go SMTP relay for legacy callers.
-- **[common-thread](https://github.com/skyphusion-labs/common-thread)**: a methodology paper plus reference implementation for sockpuppet attribution from public behavioral signals. For journalists, OSINT practitioners, and researchers.
-- **[the-hollow-grid](https://github.com/skyphusion-labs/the-hollow-grid)**: a multiplayer MUD on Workers and Durable Objects. Federated worlds, one shared character, ~$0 at idle. Play it: [hollow.skyphusion.org](https://hollow.skyphusion.org).
-- **[mud-bots](https://github.com/skyphusion-labs/mud-bots)**: AI inhabitants of The Hollow Grid. Open-source models on Workers AI that log in like players, face the game's real moral choices, and double as live QA.
-- **[SidVicious_exe](https://github.com/skyphusion-labs/SidVicious_exe)**: a punk rock Discord roadie. Claude, web search, a knowledge base, and image generation, with zero corporate sycophancy.
+- **[prism](https://github.com/skyphusion-labs/prism)**: multimodal AI playground. Public signup at [play.skyphusion.org](https://play.skyphusion.org) with per-user AI Gateway BYOK. [Write-up](https://skyphusion.net/blog/prism-public/).
+- **[postern](https://github.com/skyphusion-labs/postern)** (**v1.4.1**): email for humans and agents. Webmail, IMAP, MCP, identity-bound credentials. Demo: [demo.posternonline.com](https://demo.posternonline.com). [Write-up](https://skyphusion.net/blog/postern-identity-bound/).
+- **[security-audit](https://github.com/skyphusion-labs/security-audit)**: adversarial LLM PR/repo audits via Workers AI. MIT. [Write-up](https://skyphusion.net/blog/security-audit/).
+- **[search-mcp](https://github.com/skyphusion-labs/search-mcp)**: Cloudflare AI Search MCP + ask widget + corpus sync.
+- **[the-hollow-grid](https://github.com/skyphusion-labs/the-hollow-grid)**: federated MUD on Workers and Durable Objects. Play: [hollow.skyphusion.org](https://hollow.skyphusion.org).
+- **[mud-bots](https://github.com/skyphusion-labs/mud-bots)**: AI inhabitants of The Hollow Grid.
+- **[SidVicious_exe](https://github.com/skyphusion-labs/SidVicious_exe)**: punk rock Discord roadie.
+- **[common-thread](https://github.com/skyphusion-labs/common-thread)**: sockpuppet attribution methodology + Workers reference (research line).
 
 ## The team
 
