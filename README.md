@@ -7,7 +7,7 @@
   <a href="https://skyphusion.org">skyphusion.org</a> <span class="label">(lab)</span><span class="sep"> / </span>
   <a href="https://vivijure.com">vivijure.com</a><span class="sep"> / </span>
   <a href="https://demo.vivijure.com">Vivijure demo</a><span class="sep"> / </span>
-  <a href="https://x.com/skyphusion">X</a><span class="sep"> / </span>
+  <a href="https://x.com/rockrockenhaus">X</a><span class="sep"> / </span>
   <a href="https://www.linkedin.com/in/skyphusion/">LinkedIn</a>
 </p>
 
@@ -84,6 +84,6 @@ I served in the Navy, with deployments to Kosovo and Afghanistan attached to fir
 - My GitHub landing page: [github.skyphusion.net](https://github.skyphusion.net)
 - Vivijure, the AI film studio: [vivijure.com](https://vivijure.com) ([live demo](https://demo.vivijure.com))
 - GitHub profile: [github.com/skyphusion](https://github.com/skyphusion)
-- X: [x.com/skyphusion](https://x.com/skyphusion)
+- X: [x.com/rockrockenhaus](https://x.com/rockrockenhaus)
 - LinkedIn: [linkedin.com/in/skyphusion](https://www.linkedin.com/in/skyphusion/)
 - Reach me: [conrad@skyphusion.org](mailto:conrad@skyphusion.org)
